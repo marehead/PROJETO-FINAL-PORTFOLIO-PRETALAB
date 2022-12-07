@@ -1,0 +1,25 @@
+.menuContainer {
+    background: #F2FF08;
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.menuItem {
+    list-style: none; 
+}
+
+.menuLink {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #8a2be2;
+}
+
+@media(max-width: 765px) {
+    .menuContainer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
