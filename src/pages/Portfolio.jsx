@@ -7,7 +7,7 @@ export function Portfolio() {
     return (
       <>
        <Header text="Meu Portfolio" image={portfolioImg} /> 
-       <h1 className={styles.container}>Portfolio</h1>
+       <h1 className={styles.container}>-</h1>
       </>
     )
   }

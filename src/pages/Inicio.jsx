@@ -1,4 +1,4 @@
-import { Alien, BracketsCurly, AddressBook } from 'phosphor-react'
+import { HandEye, GenderIntersex, AddressBook } from 'phosphor-react'
 import { Header } from '../components/Header'
 import homeImg from '../assets/home.svg'
 
@@ -10,19 +10,20 @@ export function Inicio() {
      <Header text="Meu site pessoal" image={homeImg} />
      <div className={styles.homeContainer}>
       <div className={styles.cardContainer}>
-        <Alien size={150} color="#8a2be2" weight="thin" />
-        <h2 className={styles.cardTitle}>Hi</h2>
-        
+      <HandEye size={60} color="#B77FDD" weight="bold" />
+        <h2 className={styles.cardTitle}>Olá</h2>
+        <p className={styles.cardText}>
+Este ano Iniciei estudos em HTML e CSS Módulo I do Segundo Ciclo Formativo @pretalab @olabi</p>       
       </div>
       <div className={styles.cardContainer}>
-        <BracketsCurly size={150} color="#686AAC" weight="thin"/>
+      <GenderIntersex size={60} color="#B77FDD" weight="bold" />
         <h2 className={styles.cardTitle}></h2>
-        <p className={styles.cardText}>Eu conto um pouquinho sobre mim, minha formação, a história da minha migração de carreira, gostos e curiosidades.</p>
-        <p className={styles.cardText}></p>
+        <h2 className={styles.cardTitle}>Sobre mim</h2>
+        <p className={styles.cardText}>Sou Mare, pretalabber queer no binárie de SP Capital e tenho 21 anos.</p>        
       </div>
       <div className={styles.cardContainer}>
-        <AddressBook size={150} color="#686AAC" weight="thin"/>
-        <h2 className={styles.cardTitle}>Contact me</h2>
+        <AddressBook size={60} color="#B77FDD" weight="bold"/>
+        <h2 className={styles.cardTitle}>Meus Projetos desenvolvidos na Pretalab</h2>
         <p className={styles.cardText}></p>
       </div>
      </div>
